@@ -1,0 +1,236 @@
+1.
+ a.public static void main(String args[])
+ its declare a main method 
+ its a key word
+ Syntax
+ access specifier  non access-specifier return type methodName()
+
+  b. void is a return type
+   its keyword
+
+  c. static is a non access specifier
+   its keyword in java
+   it is a user defined datatype or non primitive 
+   
+  d.public is a access specifier
+ 
+
+2.data types
+	Data types are a fundamental concept in programming that define the type of data that 
+	a variable can hold Java programming
+	two types
+ 	1.primitive data types(built in function)
+ 	2.non -primitive datatypes(user defined or customized data type)
+
+ 	1. primitive data types
+   	its a built in function
+   	size is fixed
+ 	there are 8 types of data type
+  	a.byte
+  	b.short
+  	c.int
+  	d.float
+  	e.double
+ 	 f.long
+  	g.boolean
+ 
+
+ 	2. non primitive data types
+  	 its user defined customized data types
+  	 size are not fixed
+  		a.Static
+ 		 b.class
+
+
+3.variable and data types
+  there are 4 types of variable
+  1.local variable
+  2.static variable
+  3.instance variable
+  4.parameterized variable
+  
+  1.local variable
+    is a used inside the main method
+    syntax
+    access specifier non access specifier class Name
+    {
+      body of the statement
+    }
+  2.static variable
+   Declared with the static keyword within a class but outside any method, constructor,or block
+  syntax
+  
+      access specifier non access specifier className
+       {
+         static variable
+
+          body of the statement
+       }
+  3.instance variable
+   its used for the declare method inside the method
+   syntax
+   access specifier non access specifier refrenceName()
+    {
+     body of the statement
+    }
+
+
+4.method
+   method inside the mehods 
+  1.static method 
+  2.instance method
+  
+ there are 4 ways of method declare 
+  1.method with return type and without parameter
+  2.method without return type and with parameter
+  3.method with return type and with parameter
+  4.method without return type and with parameter 
+
+5. instance creation 
+  to declare the className and invoke the main method 
+        public class Bank
+         {
+           public static String bankName[]={null, null};
+	   public static int getNumberOfBank(){
+	    int result= bankName.length;
+	    return result;
+		public static void
+		  {
+		     for(int index=0;index<=bankName.length-1;index++)
+			{
+			  System.out.println("array elements are:"+bankName[index]);
+			}
+                   }
+	}
+
+6.sum of array elements
+  class Add{
+	
+	public static int sum(int a,int b){
+		return a+b;
+	}
+
+	
+   class AddTester
+       {
+         public static void main(String []asd){
+		
+	    int result=Add.sum(10,20);
+		System.out.println("two parameters :"+result);
+               } 
+  
+        }
+
+
+
+10.
+    a.error: illegal start of type
+     System.out.println(" ye im sample class");   
+
+    
+     b.'{' expected
+     
+     c.  error: '{' expected
+             
+     error: illegal start of expression
+        public static getPersonDetails(){
+        
+                                           
+  
+13.public
+   private
+   static
+   class
+   int 
+   float
+   double
+   long
+   abstract
+   Enum
+   if
+   if else
+   short
+   Boolean
+   char
+   void
+   flow
+   throw
+   throws
+   return
+   access
+   package
+   default
+   exception
+   final
+   while
+   for
+   array
+   illegal
+   constructor
+   
+  
+   
+15. JDK(java development kit)
+    JVM(java virtual machine)
+    JRE(java runtime environment)
+
+
+16.
+	HTML
+	CSS
+	JAVA SCRIPT
+	PHP
+	SQL
+	ANGULAR JS
+	NODE JS
+	BOOTCAMP
+	MAVEN
+
+17.
+method overloading is the method inside the method
+        class Add{
+	
+	public static int sum(int a,int b){
+		return a+b;
+	}
+	
+	public static int sum(int a,int b,int c){
+		return a+b+c;
+	}
+    
+
+   
+
+
+class AddTester{
+	public static void main(String []asd){
+		
+		int result=Add.sum(10,20);
+		System.out.println("two parameters :"+result);
+		
+		int result1=Add.sum(1,3,5);
+		System.out.println("3 parameters :"+result);
+		
+	}
+}
+ 
+
+
+
+
+14.
+	write a program and  declare the class 
+	write program  and save the program 
+	save the.java filename 
+	compilation program using 'javac filename.java'
+	checkthe syntax error a  and wheather its correct run the program in 'filename java'  program will execute 
+
+
+
+12.
+constructor is java programing it is a block or feilds that initialize or construct the state and value during the 0bject creation
+
+
+
+
+  
